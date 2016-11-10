@@ -23,7 +23,15 @@ $('#timer').timer();
 
 Start
 ```
+$('#timer').timer("start");
+
+// Start with predefined time
 $('#timer').timer("start", "MM:SS");
+```
+
+Stop
+```
+$('#timer').timer("stop");
 ```
 
 ## Authors
