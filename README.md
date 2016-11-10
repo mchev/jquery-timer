@@ -24,8 +24,9 @@ $('#timer').timer();
 Start
 ```
 $('#timer').timer("start");
-
-// Start with predefined time
+```
+OR
+```
 $('#timer').timer("start", "MM:SS");
 ```
 
