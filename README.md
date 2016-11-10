@@ -16,12 +16,12 @@ Simply include jquery-timer after jquery and moment.js
 
 ### Usage
 
-Init
+####Init
 ```
 $('#timer').timer();
 ```
 
-Start
+####Start
 ```
 $('#timer').timer("start");
 ```
@@ -30,7 +30,8 @@ OR
 $('#timer').timer("start", "MM:SS");
 ```
 
-Stop
+####Stop
+Will reset the countdown
 ```
 $('#timer').timer("stop");
 ```
